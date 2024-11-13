@@ -31,6 +31,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BancoX.executor": "Run",
+    "Application.Cargo.executor": "Run",
+    "Application.ComboBK.executor": "Run",
     "Application.IMC.executor": "Run",
     "Application.Maior.executor": "Run",
     "Application.MediaNotas.executor": "Run",
@@ -54,9 +56,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Switch2">
-    <configuration name="Maior" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comandoscondicionais.Maior" />
+  <component name="RunManager" selected="Application.Cargo">
+    <configuration name="Cargo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comandoscondicionais.Cargo" />
       <module name="Aula02java" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Menor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comandoscondicionais.Menor" />
+    <configuration name="ComboBK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comandoscondicionais.ComboBK" />
       <module name="Aula02java" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cargo" />
+        <item itemvalue="Application.ComboBK" />
         <item itemvalue="Application.Switch2" />
         <item itemvalue="Application.Switch1" />
         <item itemvalue="Application.Par" />
-        <item itemvalue="Application.Menor" />
-        <item itemvalue="Application.Maior" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +151,7 @@
       <workItem from="1731327708346" duration="3196000" />
       <workItem from="1731331613431" duration="632000" />
       <workItem from="1731333037081" duration="4970000" />
-      <workItem from="1731500076623" duration="1109000" />
+      <workItem from="1731500076623" duration="5836000" />
     </task>
     <servers />
   </component>
