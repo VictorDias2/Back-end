@@ -19,7 +19,7 @@ public class BancoX {
             System.out.println("Você não terá nenhum crédito");
         } else if (media <= 1000) {
             media *= 0.3f;
-            System.out.println("Você terá um percentual de 30%" );
+            System.out.println("Você terá um percentual de 30%");
         } else if (media <=3000) {
             media *= 0.4f;
             System.out.println("Você terá um percentual de 40%");

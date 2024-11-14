@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d6c1e8f-6ed8-46b8-8099-fcf3425a70f5" name="Changes" comment="" />
+    <list default="true" id="7d6c1e8f-6ed8-46b8-8099-fcf3425a70f5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,35 +31,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BancoX.executor": "Run",
-    "Application.Cargo.executor": "Run",
-    "Application.ComboBK.executor": "Run",
-    "Application.IMC.executor": "Run",
-    "Application.Maior.executor": "Run",
-    "Application.MediaNotas.executor": "Run",
-    "Application.Menor.executor": "Run",
-    "Application.Par.executor": "Run",
-    "Application.Switch1.executor": "Run",
-    "Application.Switch2.executor": "Run",
-    "Application.VotoIdade.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Victor_Proa/Documents/GitHub/Back-end/Aula02java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BancoX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Cargo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComboBK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IMC.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Maior.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MediaNotas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Menor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Par.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Switch1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Switch2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VotoIdade.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/victor.rdias1/Documents/demoday/Exercicios&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Cargo">
+}</component>
+  <component name="RunManager" selected="Application.BancoX">
+    <configuration name="BancoX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comandoscondicionais.BancoX" />
+      <module name="Aula02java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comandoscondicionais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Cargo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comandoscondicionais.Cargo" />
       <module name="Aula02java" />
@@ -72,19 +88,6 @@
     </configuration>
     <configuration name="ComboBK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comandoscondicionais.ComboBK" />
-      <module name="Aula02java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="comandoscondicionais.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Par" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comandoscondicionais.Par" />
       <module name="Aula02java" />
       <extension name="coverage">
         <pattern>
@@ -124,19 +127,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Cargo" />
+        <item itemvalue="Application.BancoX" />
         <item itemvalue="Application.ComboBK" />
+        <item itemvalue="Application.Cargo" />
         <item itemvalue="Application.Switch2" />
         <item itemvalue="Application.Switch1" />
-        <item itemvalue="Application.Par" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
       </set>
     </attachedChunks>
   </component>
@@ -152,6 +155,12 @@
       <workItem from="1731331613431" duration="632000" />
       <workItem from="1731333037081" duration="4970000" />
       <workItem from="1731500076623" duration="7787000" />
+      <workItem from="1731587298988" duration="9000" />
+      <workItem from="1731587355220" duration="509000" />
+      <workItem from="1731587954759" duration="542000" />
+      <workItem from="1731588528344" duration="4000" />
+      <workItem from="1731588569938" duration="6000" />
+      <workItem from="1731588726281" duration="31000" />
     </task>
     <servers />
   </component>
