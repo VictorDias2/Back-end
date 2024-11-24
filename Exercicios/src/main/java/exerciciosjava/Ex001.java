@@ -1,7 +1,8 @@
+//1) Faça um programa que solicite dois números inteiros e exiba a soma, subtração, multiplicação e divisão entre eles.
 package exerciciosjava;
 import java.util.*;
 
-public class Ex01 {
+public class Ex001 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
