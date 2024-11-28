@@ -7,6 +7,7 @@
     <list default="true" id="7d6c1e8f-6ed8-46b8-8099-fcf3425a70f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comandoscondicionais/BancoX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comandoscondicionais/BancoX.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Victor_Proa/Documents/GitHub/Back-end",
+    "last_opened_file_path": "C:/Users/victor.rdias1/Downloads/sistema-escolar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -161,6 +162,11 @@
       <workItem from="1731588528344" duration="4000" />
       <workItem from="1731588569938" duration="6000" />
       <workItem from="1731588726281" duration="31000" />
+      <workItem from="1732636134115" duration="307000" />
+      <workItem from="1732795748706" duration="291000" />
+      <workItem from="1732796095516" duration="20000" />
+      <workItem from="1732796124590" duration="65000" />
+      <workItem from="1732796201676" duration="1246000" />
     </task>
     <servers />
   </component>
