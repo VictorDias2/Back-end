@@ -29,7 +29,7 @@ public class AlunoController {
         return alunorepository.save(aluno);
     }
 
-    @PutMapping("/id")
+    @PutMapping("/{id}")
     public Aluno atualizarAluno(@PathVariable Long id, @RequestBody Aluno aluno){
         Aluno alunoExistente = alunoRepository.findById(id).orElse(null);
         if(alunoExistente != null && aluno.getNome() != null){
@@ -39,7 +39,7 @@ public class AlunoController {
         return null;
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id")
     public ResponseEntity<String> deletarAluno(@PathVariable Long id){
         if (alunoRepository.existsById(id)) {
             alunoRepository.deleteById(id);
