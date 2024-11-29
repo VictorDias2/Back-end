@@ -1,4 +1,5 @@
 package com.equipe1.sistema_escolar.model;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import jakarta.persistence.Entity;
 
@@ -24,10 +25,13 @@ public class Aluno {
 
 
     @ManyToOne
-    private Professor professor;
+    @JoinColumn(name = "sala_id", nullable = false)
+    private Sala sala;
 
     @ManyToOne
-    private Sala sala;
+    @JoinColumn(name = "professor_id", referencedColumnName = "pk_id_professor", nullable = false)
+    @JsonBackReference
+    private Professor professor;
 
 
     public Long getId() {
@@ -38,14 +42,6 @@ public class Aluno {
         this.id = id;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -54,11 +50,35 @@ public class Aluno {
         this.email = email;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public Date getDataNascimento() {
         return dataNascimento;
     }
 
     public void setDataNascimento(Date dataNascimento) {
         this.dataNascimento = dataNascimento;
+    }
+
+    public Sala getSala() {
+        return sala;
+    }
+
+    public void setSala(Sala sala) {
+        this.sala = sala;
+    }
+
+    public Professor getProfessor() {
+        return professor;
+    }
+
+    public void setProfessor(Professor professor) {
+        this.professor = professor;
     }
 }

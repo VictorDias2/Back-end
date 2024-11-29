@@ -1,6 +1,9 @@
 package com.equipe1.sistema_escolar.model;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.persistence.Entity;
+
+import java.util.List;
 
 
 @Entity
@@ -18,15 +21,25 @@ public class Professor {
     @Column(name = "email_professor")
     private String email;
 
+    @OneToMany(mappedBy = "professor")
+    @JsonIgnore
+    private List<Aluno> alunos;
 
 
-
-    public Long getId() {
-        return id;
+    public List<Aluno> getAlunos() {
+        return alunos;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setAlunos(List<Aluno> alunos) {
+        this.alunos = alunos;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getNome() {
@@ -37,11 +50,12 @@ public class Professor {
         this.nome = nome;
     }
 
-    public String getEmail() {
-        return email;
+    public Long getId() {
+        return id;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setId(Long id) {
+        this.id = id;
     }
 }
+

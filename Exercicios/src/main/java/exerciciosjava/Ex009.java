@@ -9,10 +9,17 @@ public class Ex009 {
 
         System.out.println("Insira o valor que irá depositar nos próximos 12 meses, sendo a taxa de juros de 0,5%: R$");
         float depositado = entrada.nextFloat();
+        float total = 0;
 
-        for(int c = 0; c<=12; c++){
-            depositado += (depositado + (depositado * 0.5f));
+        for (int c = 0; c <= 12; c++) {
+            if(c == 0){
+                total += depositado + (depositado * 0.05f);
+            }
+            else {
+                total += depositado * 0.05f;
+            }
         }
-        System.out.println("O valor daqui 12 meses será de R$" + depositado);
+
+        System.out.println("....O valor daqui 12 meses com o juros de 0,5%, será de R$" + total);
     }
 }

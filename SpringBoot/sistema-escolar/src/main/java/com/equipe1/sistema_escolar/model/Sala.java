@@ -1,6 +1,9 @@
 package com.equipe1.sistema_escolar.model;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.persistence.Entity;
+
+import java.util.List;
 
 @Entity
 @Table(name = "tb_sala")
@@ -17,6 +20,9 @@ public class Sala {
     @Column (name = "capacidade")
     private int capacidade;
 
+    @OneToMany(mappedBy = "sala")
+    @JsonIgnore
+    private List<Aluno> alunos;
 
 
     public Long getId() {
@@ -27,12 +33,12 @@ public class Sala {
         Id = id;
     }
 
-    public String getNome() {
-        return nome;
+    public List<Aluno> getAlunos() {
+        return alunos;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setAlunos(List<Aluno> alunos) {
+        this.alunos = alunos;
     }
 
     public int getCapacidade() {
@@ -41,5 +47,13 @@ public class Sala {
 
     public void setCapacidade(int capacidade) {
         this.capacidade = capacidade;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }

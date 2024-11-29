@@ -13,9 +13,17 @@ public class Presenca {
     @Column(name = "pk_id_presenca")
     private Long Id;
 
+    @ManyToOne
+    private Aluno aluno;
+
+    @ManyToOne
+    private Sala sala;
+
+    @ManyToOne
+    private Professor professor;
+
     @Column (name = "data_presenca")
     private Date datapresenca;
-
 
     public Long getId() {
         return Id;
@@ -31,5 +39,29 @@ public class Presenca {
 
     public void setDatapresenca(Date datapresenca) {
         this.datapresenca = datapresenca;
+    }
+
+    public Professor getProfessor() {
+        return professor;
+    }
+
+    public void setProfessor(Professor professor) {
+        this.professor = professor;
+    }
+
+    public Sala getSala() {
+        return sala;
+    }
+
+    public void setSala(Sala sala) {
+        this.sala = sala;
+    }
+
+    public Aluno getAluno() {
+        return aluno;
+    }
+
+    public void setAluno(Aluno aluno) {
+        this.aluno = aluno;
     }
 }
