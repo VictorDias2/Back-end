@@ -7,14 +7,14 @@ public class Ex082 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        float media = 0;
+        float soma = 0;
         int[] a = new int[10];
-        for (int c = 1; c <= 10; c++) {
-            System.out.println("Número " + c + ": ");
-
+        for (int c = 0; c <= 9; c++) {
+            System.out.println("Número " + (c+1) + ": ");
             a[c] = sc.nextInt();
-            media += a[c];
+            soma += a[c];
+
         }
-        System.out.println("Media: " + media/10);
+        System.out.println("Soma: " + soma);
     }
 }
