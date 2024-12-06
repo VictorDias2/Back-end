@@ -9,12 +9,12 @@ public class Ex049 {
         System.out.println("Número: ");
         int n = sc.nextInt();
         int num = n;
-        int c = n;
+        int c = 1;
 
-        while (c != 1) {
-            c--;
-            n += n*c;
+        while (n >= 1) {
+            n--;
+            c += n*c;
         }
-        System.out.println("O fatorial de " + num + " é = " + n);
+        System.out.println("O fatorial de " + num + " é = " + c);
     }
 }
